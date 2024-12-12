@@ -1,57 +1,43 @@
-# IGraphics
-This is the repository for IGraphics library. IGraphics is a thin wrapper on top of OpenGL. This can be used for simple 2D graphics demonstrations, project work for C programming language course
+# DX-Ball Game
 
-Command line compiling:
------------------------
-g++ -IOpenGL\include -w -c BallDemo.cpp -o BallDemo.o
+This project is an implementation of the classic **DX-Ball game** using the **iGraphics library** in the C programming language. It features exciting gameplay with enhanced functionalities and additional perks.
 
-Command line linking:
----------------------
-g++ -LOpenGL\lib BallDemo.o -o BallDemo.exe -lGlaux -lGLU32 -lglui32 -lglut32 -lOPENGL32 -lgdi32
+## Game Overview
+- The player controls a paddle at the bottom of the screen to deflect a ball, hitting colored blocks at the top.
+- The paddle can be operated using both **keyboard** and **mouse**.
+- The game ends when all blocks are cleared (win) or the ball falls below the paddle (loss).
+- Players have an initial set of **three lives**, and the ball speed increases gradually over time.
+- The game tracks **time**, **points**, and **remaining lives**, all displayed during gameplay.
 
-Command line running:
----------------------
-Make sure glut32.dll is present in the same folder
-Run BallDemo.exe
+## Features
+### Base Functionality
+- A **menu page** with options to:
+  - Start a new game.
+  - Resume the last game.
+  - View the **top-10 high scores**.
+  - Exit the game.
+- A **prompt to save the player’s name** when the game ends (win or loss).
+- **Pause and exit functionality** during gameplay.
+- Reload the game from the last unfinished session.
 
-Animation Related API:
-----------------------
-int iSetTimer(int msec, void (*f)(void))
-void iPauseTimer(int index)
-void iResumeTimer(int index)
+### Perks and Items
+- Different block hits may trigger special **perks** or **damage** items:
+  - **Perks**:
+    - Extra life.
+    - Slower ball speed.
+    - Wider paddle.
+  - **Damages**:
+    - Losing life.  
+    - Shrinking paddle.
+    - Faster ball speed.
 
-Shape drawing:
---------------
-void iSetColor(double r, double g, double b)
-void iPoint(double x, double y, int size=0)
-void iLine(double x1, double y1, double x2, double y2)
-void iFilledPolygon(double x[], double y[], int n)
-void iPolygon(double x[], double y[], int n)
-void iRectangle(double left, double bottom, double dx, double dy)
-void iFilledRectangle(double left, double bottom, double dx, double dy)
-void iFilledCircle(double x, double y, double r, int slices=100)
-void iCircle(double x, double y, double r, int slices=100)
-void iEllipse(double x, double y, double a, double b, int slices=100)
-void iFilledEllipse(double x, double y, double a, double b, int slices=100)
+### Enhanced Functionalities
+- **Help menu** to explain gameplay and controls.
+- **Music and sound effects** to enhance the gaming experience.
+- Dynamic transitions between **menu**, **gameplay**, and **high score pages**.
 
-Text output:
-------------
-void iText(double x, double y, char *str, void* font=GLUT_BITMAP_8_BY_13)
-
-Rendering:
-----------
-void iDraw();
-void iClear();
-void iShowBMP(int x, int y, char filename[])
-
-Initialization:
----------------
-void iInitialize(int width=500, int height=500, char *title="iGraphics")
-
-I/O event handling:
--------------------
-void iKeyboard(unsigned char);
-void iSpecialKeyboard(unsigned char);
-void iMouseMove(int, int);
-void iMouse(int button, int state, int x, int y);
-
+## How to Play
+- Use the keyboard or mouse to control the paddle.
+- Aim to clear all blocks in the shortest time possible.
+- Avoid letting the ball fall below the paddle.
+- Use perks and avoid damage items to maintain an advantage.
