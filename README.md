@@ -41,3 +41,8 @@ This project is an implementation of the classic **DX-Ball game** using the **iG
 - Aim to clear all blocks in the shortest time possible.
 - Avoid letting the ball fall below the paddle.
 - Use perks and avoid damage items to maintain an advantage.
+
+## Screenshots
+*(Add your game images here)*
+
+![Menu Page](DX Ball Perks6.bmp)
