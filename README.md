@@ -45,3 +45,6 @@ This project is an implementation of the classic **DX-Ball game** using the **iG
 ## Screenshots
 
 ![Menu Page](DX_Ball_Cover_Page.png)
+![Instructions](DX_Ball_Instructions.png)
+![Leaderboard](DX_Ball_Leaderboard.png)
+![Gameplay](DX_Ball_Gameplay1.png)
