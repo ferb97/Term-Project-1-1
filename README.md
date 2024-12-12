@@ -43,6 +43,5 @@ This project is an implementation of the classic **DX-Ball game** using the **iG
 - Use perks and avoid damage items to maintain an advantage.
 
 ## Screenshots
-*(Add your game images here)*
 
-![Menu Page]("DX Ball Perks 6.bmp")
+![Menu Page](DX_Ball_Cover_Page.png)
