@@ -42,9 +42,11 @@ This project is an implementation of the classic **DX-Ball game** using the **iG
 - Avoid letting the ball fall below the paddle.
 - Use perks and avoid damage items to maintain an advantage.
 
-## Screenshots
+## Images
 
-![Menu Page](DX_Ball_Cover_Page.png)
-![Instructions](DX_Ball_Instructions.png)
-![Leaderboard](DX_Ball_Leaderboard.png)
-![Gameplay](DX_Ball_Gameplay1.png)
+<div style="display: flex; flex-wrap: wrap; gap: 15px;">
+    <img src="DX_Ball_Cover_Page.png" alt="Menu Page" height="200" width="250">
+    <img src="DX_Ball_Instructions.png" alt="Instructions" height="200" width="250">
+    <img src="DX_Ball_Leaderboard.png" alt="Leaderboard" height="200" width="250">
+    <img src="DX_Ball_Gameplay1.png" alt="Gameplay" height="200" width="250">
+</div>
