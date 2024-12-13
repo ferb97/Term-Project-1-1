@@ -45,8 +45,8 @@ This project is an implementation of the classic **DX-Ball game** using the **iG
 ## Images
 
 <div style="display: flex; flex-wrap: wrap; gap: 15px;">
-    <img src="DX_Ball_Cover_Page.png" alt="Menu Page" height="150" width="200">
-    <img src="DX_Ball_Instructions.png" alt="Instructions" height="150" width="200">
-    <img src="DX_Ball_Leaderboard.png" alt="Leaderboard" height="150" width="200">
-    <img src="DX_Ball_Gameplay1.png" alt="Gameplay" height="150" width="200">
+    <img src="DX_Ball_Cover_Page.png" alt="Menu Page" height="350" width="470">
+    <img src="DX_Ball_Instructions.png" alt="Instructions" height="350" width="470">
+    <img src="DX_Ball_Leaderboard.png" alt="Leaderboard" height="350" width="470">
+    <img src="DX_Ball_Gameplay1.png" alt="Gameplay" height="350" width="470">
 </div>
